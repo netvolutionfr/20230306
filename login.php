@@ -14,8 +14,9 @@
 
     <label for="password">Mot de passe</label>
     <input id="password" type="password" name="password">
-
+    <button id="reveal-password" type="button">Show Password</button>
     <button type="submit">Se connecter</button>
 </form>
+<script src="script.js"></script>
 </body>
 </html>
