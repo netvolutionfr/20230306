@@ -29,9 +29,11 @@ if ($user) {
         // On redirige vers la page d'accueil
         header('Location: index.php');
     } else {
-        echo "Mot de passe incorrect";
+        echo "Erreur d'autentification<br>";
+        echo "<a href='login.php'>Réessayer</a>";
+
     }
 } else {
-    echo "Utilisateur inconnu";
-    header('Location: login.php');
+    echo "Erreur d'autentification<br>";
+    echo "<a href='login.php'>Réessayer</a>";
 }
